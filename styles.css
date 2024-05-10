@@ -1,56 +1,66 @@
-body{
-    background-color:#8CDFD6;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+body {
+    background-color: #30ee7f;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 
 .pizza {
-    border: 1px solid #e0e1dd;
-    padding:1em;
-    margin:1em;
-    /*margin-left: 0.5em;*/
+    border: 2px solid  rgb(226, 70, 43);
+    padding: 1em;
+    margin: 1em;
+    margin-left: 0em;
     margin-bottom: 0.5em;
-    border-radius: 1em;
-   
-   
-    /*width:20em;
-    display:inline-block;
-    min-height:30em;*/
+    border-radius: 2em;
+
+    
+    /*width: 20em;
+    display: inline-block;
+    min-height: 30em;*/
+
 }
-
-.medium_pizza{
-    background-color:#23CE6B;
-    flex:2
+.medium_pizza {
+    background-color: #E9DF00;
+    flex: 2;
+    
+    
 }
-
-.large_pizza{
-    background-color:#BD2D87;
-    flex:2
+.large_pizza {
+    background-color: #FA198B;
+    flex: 3;
+    
 }
-
-.small_pizza{
-    background-color:#8DAB7F;
-    flex:1
+.small_pizza {
+    background-color: #FF5A5F;
+    flex: 1;
+    
 }
-
-.contact_us{
-    background-color:#DCBF85;
-   
-}
-
-@media(min-width:768px){
-    /*body {
-        background-color:blue;
-    }*/
-
+.contact_us {
+    background-color: #a7128e;
 }
 
 
-@media(min-width:960px){
-    /*body {
-       /* background-color:blue;
-    }*/
+/*@media(min-width: 760px) {
+    body {
+        background-color: wheat;
+        
+    }
+}*/
 
-    .pizzas{
-        display:flex
+.contact_us {
+    justify-content: space-between;
+    width: 97.00%;
+
+}
+.our_location {
+    
+}
+
+@media(min-width: 960px) {
+    body {
+        background-color: white;
+        
+    }
+    .pizzas {
+        display: flex;
     }
 }
